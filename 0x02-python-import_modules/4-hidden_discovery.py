@@ -4,4 +4,4 @@ if __name__ == "__main__":
     hidden_discovery = dir(hidden_4)
     for n in range(len(hidden_discovery)):
         if hidden_discovery[n][0] != '_' and hidden_discovery[n][1] != '-':
-            print(hidden_discover[n])
+            print(hidden_discovery[n])
