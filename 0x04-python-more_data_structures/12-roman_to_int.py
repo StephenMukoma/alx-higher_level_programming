@@ -9,10 +9,12 @@ def roman_to_int(roman_string):
                 number.append(5)
             elif i == 'X':
                 number.append(10)
-            elif i == 'C':
+            elif i == 'L':
                 number.append(50)
-            elif i == 'D':
+            elif i == 'C':
                 number.append(100)
+            elif i == 'D':
+                number.append(500)
             elif i == 'M':
                 number.append(1000)
         for i in range(len(number)):
@@ -21,4 +23,4 @@ def roman_to_int(roman_string):
                     number[i] = -number[i]
         return sum(number)
     else:
-         return 0
+        return 0
