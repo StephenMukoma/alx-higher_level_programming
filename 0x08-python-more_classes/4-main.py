@@ -1,4 +1,5 @@
-ectangle = __import__('4-rectangle').Rectangle
+#!/usr/bin/python3
+Rectangle = __import__('4-rectangle').Rectangle
 
 my_rectangle = Rectangle(2, 4)
 print(str(my_rectangle))
@@ -23,3 +24,4 @@ print("--")
 
 print(new_rectangle is my_rectangle)
 print(type(new_rectangle) is type(my_rectangle))
+
