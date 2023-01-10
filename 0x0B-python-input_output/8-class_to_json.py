@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""returns the dictionary with simple data structure"""
-
+""" JSON serialization of an object """
+import json
 
 def class_to_json(obj):
-    """returns the dictionary of obj"""
-    returns obj.__dict__
+    """ returns dictionary description with simple data structure """
+    return obj.__dict__
